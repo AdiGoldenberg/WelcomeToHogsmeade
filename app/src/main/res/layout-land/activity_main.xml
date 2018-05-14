@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tabs_background_color"
+    android:orientation="vertical"
+    tools:context="com.example.adi.welcometohogsmeade.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/banner_height">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/hogsmead_cover" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingBottom="@dimen/full_margin"
+            android:paddingHorizontal="@dimen/full_margin"
+            android:text="@string/town_description"
+            android:textAlignment="center"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/bannerTextColor"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabBackground="@color/tabs_background_color"
+        app:tabIndicatorColor="@color/selected_tab_text"
+        app:tabMode="fixed"
+        app:tabSelectedTextColor="@color/selected_tab_text"
+        app:tabTextColor="@color/non_selected_tab_text" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/credits"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:clickable="true"
+        android:padding="@dimen/small_margin"
+        android:text="@string/credits"
+        android:textAlignment="center"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@color/non_selected_tab_text" />
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#84b3e5</color>
+    <color name="colorPrimaryDark">#658eb3</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bannerTextColor">#FF4081</color>
+
+    <!-- Text color for the selected category -->
+    <color name="selected_tab_text">#f48fb1</color>
+
+    <!-- Text color for the non-selected category -->
+    <color name="non_selected_tab_text">#FFFFFF</color>
+
+    <!-- Color for each attraction background -->
+    <color name="items_background_color">#cfd8dc</color>
+
+    <!-- Color for the tabs background -->
+    <color name="tabs_background_color">#84b3e5</color>
+</resources><!-- light blue  bbdefb,
+    light grey 616161,
+    dark grey 373737 -->

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/items_background_color"
+    android:layoutDirection="ltr"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/attraction_image"
+        android:layout_width="@dimen/list_image_height"
+        android:layout_height="@dimen/list_image_height"
+        android:paddingLeft="@dimen/small_margin"
+        android:paddingVertical="@dimen/small_margin"
+        tools:src="@drawable/hogsmead" />
+
+    <LinearLayout
+        android:id="@+id/list_textView_parent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="@dimen/small_margin">
+
+        <TextView
+            android:id="@+id/attraction_text"
+            style="@style/itemTextStyle"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            tools:text="item" />
+
+        <TextView
+            android:id="@+id/description_text"
+            style="@style/descriptionTextStyle"
+            android:gravity="top"
+            android:paddingTop="@dimen/small_margin"
+            tools:text="description" />
+    </LinearLayout>
+</LinearLayout>

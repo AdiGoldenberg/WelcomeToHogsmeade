@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Welcome To Hogsmeade</string>
+    <string name="town_description">The only entirely non-Muggle settlement in Britain</string>
+    <string name="credits">All content is based on the Harry Potter Wiki</string>
+    <string name="credits_link">http://harrypotter.wikia.com/wiki/Hogsmeade</string>
+
+    <!-- These are the strings for the history list -->
+    <string name="history_category_name">History</string>
+    <string name="history_attraction1_name">Over 1,000 years ago</string>
+    <string name="history_attraction1_description">According to tradition, Hogsmeade was founded over a thousand years ago,
+        around the same time as Hogwarts School of Witchcraft and Wizardry, by medieval wizard Hengist of Woodcroft as he
+        was fleeing persecution by Muggles.</string>
+    <string name="history_attraction2_name">1612</string>
+    <string name="history_attraction2_description">A goblin rebellion took place in the vicinity of the village.
+        Hogsmeade served as the wizards\' headquarters during the rebellion.</string>
+    <string name="history_attraction3_name">November 1926</string>
+    <string name="history_attraction3_description">The Daily Prophet reported that Hogsmeade would play host to the first ever
+        Magical Waterplants Festival.</string>
+    <string name="history_attraction4_name">1993</string>
+    <string name="history_attraction4_description">
+        Harry Potter\'s first visit to the village (outside the train station) occurred during the winter of 1993.
+        Because he ran away from his guardians, the Dursleys, he was unable to acquire permission to go,
+        and he visited with the aid of the Marauder\'s Map.
+        After Draco Malfoy reported to Snape that he had seen Harry in Hogsmeade
+        (when the hood of the invisibility cloak fell off of Harry\'s head) Remus Lupin covered for him but confiscated
+        the Marauder\'s Map preventing Harry from visiting Hogsmead again for the remainder of the school year.
+        Neville Longbottom also lost his visitation rights for writing down the passwords to Gryffindor Tower,
+        which were stolen by Crookshanks, Hermione Granger\'s cat, and used by Sirius Black.
+        Later, Sirius, as Harry\'s godfather, gave written permission for Harry to visit the village.
+    </string>
+    <string name="history_attraction5_name">1994</string>
+    <string name="history_attraction5_description">Harry, along with Hermione and Ron, went to visit Sirius Black and Buckbeak
+        in one of the caves in the mountains on the outskirts of Hogsmeade. There, they discussed the strange occurrences surrounding
+        Harry\'s entrance in the Triwizard Tournament. </string>
+    <string name="history_attraction6_name">1995</string>
+    <string name="history_attraction6_description">In the winter of 1995, a group of Hogwarts students that were unhappy about the recent
+        Ministry interference at Hogwarts, formed Dumbledore\'s Army. The D.A. was illegal organisation that centred around Harry Potter
+        teaching other students defensive and offensive magic. The first meeting was held in the Hog\'s Head pub.</string>
+
+    <!-- These are the items for the Residents list -->
+    <string name="residents_category_name">Residents</string>
+    <string name="residents_attraction1_name">Madam Rosmerta</string>
+    <string name="residents_attraction1_description">The landlady of the Three Broomsticks pub</string>
+    <string name="residents_attraction2_name">Aberforth Dumbledore</string>
+    <string name="residents_attraction2_description">The owner and barman of the Hog\'s Head Inn</string>
+    <string name="residents_attraction3_name">Madam Puddifoot</string>
+    <string name="residents_attraction3_description">The witch who runs Madam Puddifoot\'s Tea Shop</string>
+    <string name="residents_attraction4_name">Ambrosius Flume</string>
+    <string name="residents_attraction4_description">The a wizard who runs Honeydukes Sweetshop</string>
+    <string name="residents_attraction5_name">Mrs Flume</string>
+    <string name="residents_attraction5_description">The a witch who runs Honeydukes Sweetshop</string>
+    <string name="residents_attraction6_name">Dominic Maestro</string>
+    <string name="residents_attraction6_description">The wizard who runs Dominic Maestro\'s music shop</string>
+
+    <!-- These are the items for the Attractions list -->
+    <string name="attractions_category_name">Attractions</string>
+    <string name="attractions_attraction1_name">Hogsmeade Post Office</string>
+    <string name="attractions_attraction1_description">The owl post office. It houses at least two–to–three–hundred owls,
+        ranging from Great Grey Owls to tiny Scops (the latter for "local deliveries only"),
+        hooting down from colour-coded shelves.</string>
+    <string name="attractions_attraction2_name">Hogsmeade Station</string>
+    <string name="attractions_attraction2_description">The railway station that serves both the village of Hogsmeade
+        and Hogwarts School of Witchcraft and Wizardry.</string>
+    <string name="attractions_attraction3_name">Madam Puddifoot\'s Tea Shop</string>
+    <string name="attractions_attraction3_description">A small tea shop ideal for dates.</string>
+    <string name="attractions_attraction4_name">The Shrieking Shack</string>
+    <string name="attractions_attraction4_description">An infamous and the most frightening building in Britain.
+        Thought to be haunted due to scary noises made by the werewolf Remus Lupin transforming there.</string>
+    <string name="attractions_attraction5_name">Hog\'s Head Inn</string>
+    <string name="attractions_attraction5_description">A dingy pub which hosts a secret passage into Hogwarts created by the Room of Requirement.</string>
+    <string name="attractions_attraction6_name">The Three Broomsticks Inn</string>
+    <string name="attractions_attraction6_description">An popular inn and pub famous for its Butterbeer and Firewhiskey.</string>
+    <string name="attractions_attraction7_name">Wizarding Wireless Network Headquarters</string>
+    <string name="attractions_attraction7_description">The main headquarters of the popular radio station.</string>
+
+    <!-- These are the items for the Shops list -->
+    <string name="shops_category_name">Shops</string>
+    <string name="shops_attraction1_name">Dervish and Banges</string>
+    <string name="shops_attraction1_description">A helpful shop and sells and repairs some magical instruments.</string>
+    <string name="shops_attraction2_name">Gladrags Wizardwear</string>
+    <string name="shops_attraction2_description">clothing shop that also sells very lurid socks,
+        including ones that scream when they get too smelly.</string>
+    <string name="shops_attraction3_name">Honeydukes</string>
+    <string name="shops_attraction3_description">A sweet shop that has the entrance to a secret passageway into Hogwarts in its cellar.</string>
+    <string name="shops_attraction4_name">Ollivanders</string>
+    <string name="shops_attraction4_description">A local branch of the wand shop.</string>
+    <string name="shops_attraction5_name">Scrivenshaft\'s Quill Shop</string>
+    <string name="shops_attraction5_description">A shop for all types of quills.</string>
+    <string name="shops_attraction6_name">Zonko\'s Joke Shop</string>
+    <string name="shops_attraction6_description">A famous joke shop.</string>
+    <string name="shops_attraction7_name">Ceridwen\'s Cauldrons</string>
+    <string name="shops_attraction7_description">A cauldron shop who\'s storewindow features a Self-Stirring Cauldron.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

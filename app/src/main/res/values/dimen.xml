@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="list_image_height">100dp</dimen>
+    <dimen name="full_margin">16dp</dimen>
+    <dimen name="small_margin">8dp</dimen>
+    <dimen name="banner_height">88dp</dimen>
+</resources>
