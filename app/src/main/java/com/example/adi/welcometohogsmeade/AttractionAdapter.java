@@ -42,9 +42,8 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         // Check if the existing view is being reused, otherwise inflate the view
-        View listItemView = convertView;
-        if (listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(
+        if (convertView == null) {
+            convertView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item, parent, false);
         }
 
@@ -52,17 +51,17 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
         Attraction currentAttraction = getItem(position);
 
         // Find the TextView in the list_item.xml layout where the attraction name should go to
-        TextView attractionTextView = (TextView) listItemView.findViewById(R.id.attraction_text);
+        TextView attractionTextView = (TextView) convertView.findViewById(R.id.attraction_text);
         // Get the attraction name from the current Attraction object and set this text on the attractionTextView
         attractionTextView.setText(currentAttraction.getAttractionName());
 
         // Find the TextView in the list_item.xml layout where the attraction description should go
-        TextView descriptionTextView = (TextView) listItemView.findViewById(R.id.description_text);
+        TextView descriptionTextView = (TextView) convertView.findViewById(R.id.description_text);
         // Get the attraction description from the current Attraction object and set this text on the descriptionTextView
         descriptionTextView.setText(currentAttraction.getAttractionDescription());
 
         // Find the ImageView in the list_item.xml layout where the image should go
-        ImageView imageView = (ImageView) listItemView.findViewById(R.id.attraction_image);
+        ImageView imageView = (ImageView) convertView.findViewById(R.id.attraction_image);
         // Get the resource id of the corresponding image from the current Word object
         if (currentAttraction.getAttractionImageId() != 0) {  // set this to be the presented image if it exists
             imageView.setImageResource(currentAttraction.getAttractionImageId());
@@ -72,6 +71,6 @@ public class AttractionAdapter extends ArrayAdapter<Attraction> {
         }
 
         // Return the list item layout
-        return listItemView;
+        return convertView;
     }
 }
