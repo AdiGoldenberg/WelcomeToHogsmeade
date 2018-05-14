@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Welcome To Hogsmeade</string>
     <string name="town_description">The only entirely non-Muggle settlement in Britain</string>
-    <string name="credits">All content is based on the Harry Potter Wiki</string>
+    <string name="credits">&#169; All content is based on the Harry Potter Wiki</string>
     <string name="credits_link">http://harrypotter.wikia.com/wiki/Hogsmeade</string>
 
     <!-- These are the strings for the history list -->
